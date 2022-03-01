@@ -1,0 +1,53 @@
+/**components**/
+/**buttons**/
+.btn-wrapper {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(#15deaf));
+  background: linear-gradient(0deg, white 0%, #15deaf 100%);
+  border-color: black;
+  border-width: 2px;
+}
+
+.navbar-bg {
+  background-color: #c2cdd6;
+  -webkit-box-shadow: 0 7px 6px -3px rgba(75, 73, 73, 0.747);
+          box-shadow: 0 7px 6px -3px rgba(75, 73, 73, 0.747);
+}
+
+.logo-img {
+  width: 150px;
+}
+
+.each-link {
+  text-decoration: none;
+  font-size: 1.6em;
+}
+
+.chart-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: red;
+  margin-left: 65px;
+  margin-top: 30px;
+  color: white;
+  font-size: 0.8em;
+}
+
+/**pages**/
+.product-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  row-gap: 50px;
+}
+
+.info-home {
+  font-size: 2em;
+  color: black;
+  margin-top: 150px;
+}

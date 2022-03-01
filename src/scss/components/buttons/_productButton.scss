@@ -1,0 +1,13 @@
+.btn-wrapper {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(21, 222, 175, 1) 100%
+  );
+  border-color: black;
+  border-width: 2px;
+}
